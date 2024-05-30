@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html basic tags</title>
+    <link rel="stylesheet" href="style.css">
     <h> <center><b>html basic tags and elements</b></center></h>
     <!-- fonts-->
 
@@ -14,24 +15,69 @@
 <i>it is italic</i><br>
 <tt>this is type writter</tt><br>
 <p><b>the</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa ducimus temporibus, ut magnam voluptatum, hic non est iure animi, eum numquam modi sunt eveniet necessitatibus commodi nobis laboriosam vel in possimus! Similique dolor, placeat tempore reprehenderit eveniet veniam tenetur odit! Pariatur, beatae inventore ad praesentium unde expedita tempore earum!</p>
-
+<marquee direction="right" behaviour="alternate"  scrolldelaye="500">car</marquee>
 <!--image-->
 
 <h2>image </h2>
 <img src="scene-Iron-Man.webp" height="100px" width="100px">
 
 <!--form-->
-<fieldset>
-    <legend>basic login form</legend>
-    <label>Name</label>
-            <input  type="name" placeholder="enter your name"><br>
-            <label>password</label>
-            <input type="password" placeholder="enter your password"><br>
-            <label>submit</label>
-            <input type="button" placeholder="submit">
-
+<fieldset class="ben">
+    <legend>form</legend>
+    <form>
+        <label>NAME</label>
+        <input type="name" placeholder="name">
+        <br>
+        <hr>
+        <label>PASSWORD</label>
+                <input type="password" placeholder='password'>
+                <br>
+                <hr>
+                <label>GENDER</label>
+                <input type="radio" name="gender">male
+                <input type="radio" name="gender">female
+                <br>
+                <hr>
+                <lable>Select Cource</lable>
+                <select>
+                    <option value="c programming">c programming</option>
+                    <option value="java programming">java programming</option>
+                    <option value="python programming">python programming</option>
+                </select>
+                <br>
+                <hr>
+                <lable>upload photo</lable>
+                <input type="file" multiple>
+    </form>
 </fieldset>
-
+<table border="1px">
+    <tr><td colspan="3"><h1>INFORMATION</h1></td></tr>
+    <tr>
+        <th>NAME</th>
+        <th>CLASS</th>
+        <th rowspan="5">b<br>r<br>e<br>a<br>k</th>
+        <th>ROLL NO</th>
+    </tr>
+    <tr>
+        <td>SENTHIL</td>
+        <td>bsc it</td>
+        <td>55</td>
+    </tr>
+    <tr>
+        <td>SENTHIL</td>
+        <td>bsc it</td>
+        <td>55</td></tr>
+        <tr>
+            
+        <td>SENTHIL</td>
+        <td>bsc it</td>
+        <td>55</td>
+        </tr>
+        <tr>
+    <td>SENTHIL</td>
+    <td>bsc it</td>
+    <td>55</td></tr>
+</table>
 </head>
 <body>
     
